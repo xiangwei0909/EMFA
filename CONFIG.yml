@@ -1,0 +1,260 @@
+###########################################################
+# EMSuit config file
+# Author: Zhang Qiang
+###########################################################
+# THIS IS CONFIG FILE FOR EMSUIT
+# THE LINE BEGINNING WITH '#' IS COMMENT LINE
+###########################################################
+# SUPPORTTED SOLVER:
+#   1.  EFIE                    State: OK
+#   2.  MFIE                    State: OK
+#   3.  CFIE                    State: OK
+#   4.  ACA_CFIE                State: OK
+#   5.  CBFM (CFIE)             State: OK
+#   6.  EICBFM (CFIE)           State: OK
+#   7.  ACA_EICBFM (CFIE)       State: OK
+#   8.  PMCHW                   State: OK
+#   9.  EFIE_PMCHW              State: [Scattering Only]
+#   10. EICBFM_PMCHW            State: OK
+#   11. AIM (EFIE)              State: OK
+#   12. DDM (CFIE)              State: OK
+#   13. ACA_DDM (CFIE)          State: OK
+#   14. PO                      State: OK
+#   15. FMM (CFIE)              State: OK
+#   16. MLFMA (CFIE)            State: OK
+#   17. IEDG (CFIE)             State: OK
+#   18. IEDG_MLFMA (CFIE)       State: OK
+#   19. IP_IE_DDM (CFIE)        State: OK
+#   20. FastWT (CFIE)           State: OK
+#   21. FSPGF_EFIE              State: OK
+#   22. FSPGF_EFIE_HS           State: OK
+#   23. EFIE_HS                 State: OK
+#   24. VIE                     State: OK
+#   25. VSIE                    State: OK
+#   26. PGF_VIE                 State: OK
+#   27. DGVIE                   State: OK
+#   28. DGVSIE                  State: OK
+#   29. PGF_VSIE                State: OK
+#   30. NEWSED                  State: OK
+#   31. TDS                     State: 
+#   32. New_ASED_ID             State: OK
+#   33. New_ASED_PEC            State: OK
+#   34. New_ASED_EDM            State: OK
+#   35. SED_CM                  State:
+#   36. SED_QP
+#   37. SED_CM_FMM              Stata: OK
+#==========================================================
+### [GLOBAL]
+### Select Solver Which State is OK
+    EMSolver: SED_CM_FMM
+
+### [GLOBAL]
+### Result Type (1). BistaticRCS (2). MonostaticRCS (2). Radiation
+    result_type: BistaticRCS
+
+### [GLOBAL]
+### The Absolute Path of Mesh File
+    mesh_path:   E:\EMFAex\nas\dipole.nas
+    supply_mesh_path:   E:\EMFAex\nas\dipole2.nas
+
+### [EPA][Graphene mesh]
+### The Absolute Path of Surround Mesh File
+    surround_path: E:\EMFA\nas\epa_surround.nas
+
+### [FEKO CURRENT]
+### The absolute path of current file from FEKO software
+    FEKOcur_path: E:\EMFA\nas\butterfly_New_ASED_PEC\bowtie_array.os
+
+### [Bistatic][Monostatic]
+### Incident Field Configuration
+### Frequency Unit: Hz
+### Pole Unit: degree
+    frequency:   3e8
+    pole:   0
+
+### [Reflection]
+### Different Incident Frequency
+### Frequency: Hz
+    frequency_from: 6e8
+    frequency_to: 6e8
+    frequency_delta: 6e8
+    frequency_inc: 6e8
+
+### [Bistatic]
+### Incident Field Direction
+### Theta/Phi Unit: degree
+    theta:  0
+    phi:    0
+
+### [Bistatic][Monostatic]
+### Scattering Field Configuration
+### All Unit: Degree
+    theta_from:     0
+    theta_to:       360
+    theta_delta:    1
+    phi_from:       0
+    phi_to:         90
+    phi_delta:      90
+
+### [Radiation]
+### Radiation Field Configuration
+### EPlane:   XZ Plane
+### HPlane:   YZ Plane
+### HHPlane:  XY Plane
+### "false" is Unset, "true" is Set
+    E_Plane:    true
+    H_Plane:    true
+    HH_Plane:   true
+
+### [Electric near field]
+### Origin point; End point; Number of sampling from three direction
+### unit:m
+    Origin_point: (0,0,1)
+    End_point: (3,3,1)
+    Sampling_x: 1
+    Sampling_y: 1
+    Sampling_z: 1
+
+### [CFIE]
+### Combined Coefficient: alpha * EFIE + (1 - alpha) * MFIE
+    alpha:  1
+
+### [ACA_CFIE]
+### ACA Box Length (Electrical Length)
+### EDM (Equivalent Dipole Method) Acceleration Option: (1).Set is 'true' (2). Unset is 'false'
+    aca_box_length: 0.5
+    edm_acceleration: false
+    
+### [ACA_*]
+### Threshold is Relative Tolerance (Also for SVD if SVD is applied) [Recommended Value: <= 0.01]
+    aca_threshold: 1e-2
+
+### [CBFM][EICBFM]
+### The Maximum Box Number in X/Y/Z Axis
+    max_box_num: 4
+
+### [EICBFM]
+### The Maximum Number of Box in X/Y/Z Direction
+### Poles Number of Incidant Wave (1 or 2)
+### The Spacing of Sample Point (Unit: degree)
+    polarization:   2
+    sample_spacing: 10
+
+### [PMCHW][IBC]
+### Relative Dielectric Parameter
+    epsilon1:   1
+    epsilon2:   3.50
+    mu1:        1
+    mu2:        1
+
+### [AIM]
+### All Distances are Electrical Length
+    x_spacing:      0.08
+    y_spacing:      0.08
+    z_spacing:      0.08
+    near_threshold: 0.2
+
+### [MLFMA][IEDG][IEDG_MLFMA][IP_IE_DDM][FastWT]
+### Preconditioner Option: (1).Set is 'true' (2).Unset is 'false'
+    preconditioning: true
+
+### [MLFMA][IEDG_MLFMA][FastWT]
+### Sparse Approximation Inverse (SAI) Preconditioner
+### The Preconditioning Parameter (row/col_threshold >= 0.87)
+    row_threshold: 0.9
+    col_threshold: 0.87
+
+### [AIM][DDM][FMM][MLFMA][IEDG_MLFMA][IP_IE_DDM][FastWT]
+### The Iteration Threshold
+### The Maximum Iterative Number
+    iteration_threshold:    3e-2
+    max_iteration_number:   20
+
+### [FMM]
+### FMM Box Length (Electrical Length) [Recommended Value: 0.25 <= length <= 0.5]
+    fmm_box_length: 0.4
+
+### [MLFMA][IEDG_MLFMA][FastWT]
+### The Maximum Electrical Length at Finest Level [Recommended Value: 0.25 <= threshold <= 0.5]
+    mlfma_box_threshold: 0.5
+
+### [IEDG]
+### The type of trial function: (1).half_RWG (2).full_RWG
+    basis_function_type: full_RWG
+
+### [IEDG][IEDG_MLFMA][IP_IE_DDM][FastWT]
+### Stabilization Parameter 
+### Average Size of Mesh (the size is actual length)
+### IEDG: beta = stabilization_factor / average_size [Recommended Value: half_RWG: 0.1, full_RWG: 10]
+### IP_IE_DDM: beta = stabilization_factor * |log(average_size)|
+    stabilization_factor: 0.1
+    average_size: 0.07503
+
+### [IP_IE_DDM]
+### DDM Policy Option: (1).less_time (2).less_memory
+    ddm_policy: less_time
+
+### [MLFMA][IP_IE_DDM][FastWT]
+### Multithreading Option
+### Sequence: value = 1
+### Parallel: value > 1
+    thread_number: 4
+
+### [MLFMA][FastWT]
+### The Factor of Task Packets: task_packet = task_factor * working_thread
+    task_factor: 5
+    
+### [VIE]
+### The fast filling of impedence matrix.
+    Isfast: 1
+    
+### [ARRAY][FSPGF_EFIE][NEWSED][NEWSED_SPIN]
+### The distance between the array cell:(1)"Dx" is the x direction distance. (2)"Dy" is the y direction distance. (3)unit:lamda(wave length). 
+### (4) "D_Angle" is the period of spin volume.(5) "A_Angle" is the angle of the whole spin volume
+    Dx: 0.6
+    Dy: 0.6
+    D_Angle: 10
+    A_Angle: 360
+    Phase_0: 0
+    Phase_x: 0
+    Phase_y: 0
+    Array_x: 20
+    Array_y: 20
+    Scale_alongx: 1
+    Scale_alongy: 1
+    Rotate_alongx: 0
+    Rotate_alongy: 0
+    isContinuous: 0
+
+### [PGF]
+### the number of periodic green's function sum
+    t_sum: 1
+
+### [CONDUCTIVITY]
+### In fact, the metal have finite conductivity. (0,0) represent the PEC.
+    Sigma: (0.0025,0)
+    
+    
+### [PGF_Interpolation]
+### To speed up the progress that filling the PGF elements.
+### The length of the interpolation gird. unit:lamda
+    d_x: 0.005
+    d_y: 0.005
+    d_z: 0.005
+
+### [multiple Plane Waves][NEWSED]
+### Solve the problem with connected structure
+### The direction of the incident plane waves, the unit is degree.
+### polarization option:[Theta][Phi][Bidirect]
+    PW_theta_from: 0
+    PW_theta_delta: 10
+    PW_theta_to: 90
+    PW_phi_from: 0
+    PW_phi_delta: 10
+    PW_phi_to: 90
+    polarization: Theta
+
+### [TDS]
+### The thickness of the thin dielectric sheet
+### unit: lamda
+    Thickness_sheet: 0.05

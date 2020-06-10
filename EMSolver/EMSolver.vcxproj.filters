@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DGVIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DGVSIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EFIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EFIE_HS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastWT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FMM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FSPGF_EFIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FSPGF_EFIE_HS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLFMA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWSED.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PGF_VIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PGF_VSIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VSIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ASED_ID.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ASED_PEC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ASED_EDM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EPA_EFIE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ASED_gra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SED_CM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SED_CM_FMM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SED_QP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MBF_ONE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NSED_metal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SED_QP_MAIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DGVIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DGVSIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EFIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EFIE_HS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastWT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FMM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FSPGF_EFIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FSPGF_EFIE_HS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MLFMA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NEWSED.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PGF_VIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PGF_VSIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VSIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ASED_ID.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ASED_PEC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ASED_EDM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EPA_EFIE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ASED_gra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SED_CM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SED_CM_FMM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SED_QP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MBF_ONE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NSED_metal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SED_QP_MAIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

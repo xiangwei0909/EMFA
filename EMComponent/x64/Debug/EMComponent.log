@@ -1,0 +1,92 @@
+﻿  ACA.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  AIMRect.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CBF_Block.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CommonEdge.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\emfaex2\emcomponent\commonedge.cpp(111): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(140): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(141): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(226): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(243): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(276): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(277): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(343): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(376): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(377): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(580): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(586): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(588): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(594): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(596): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(602): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(604): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(610): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(612): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(618): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(620): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(626): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(628): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(634): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(636): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(642): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(644): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commonedge.cpp(650): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  CommonTriangle.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\emfaex2\emcomponent\commontriangle.cpp(143): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(173): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(174): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(251): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(258): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(260): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(266): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(268): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(274): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(276): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(282): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(284): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(290): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(292): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(298): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(300): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(306): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(308): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(314): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(316): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(322): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(393): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(398): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(444): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(500): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(501): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(561): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(607): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(663): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\emfaex2\emcomponent\commontriangle.cpp(664): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ConfigLoader.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ContourEdge.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FMM_Boundary.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Mesh.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MLFMA_Boundary.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Quadrature.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Result.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Tetrahedron.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ThreadPool.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  tools.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Triangle.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  EMComponent.vcxproj -> E:\EMFAex2\x64\Debug\EMComponent.lib

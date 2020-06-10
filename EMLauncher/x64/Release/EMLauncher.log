@@ -1,0 +1,9 @@
+﻿  launcher.cpp
+e:\emfaex2\include\eigen\unsupported\eigen\src\iterativesolvers\minres.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码
+e:\emfaex2\emsolver\sed_cm_fmm.cpp(12599): warning C4715: “mom::SED_CM_FMM::ArrayToNear”: 不是所有的控件路径都返回值
+  22196 of 22267 functions (99.7%) were compiled, the rest were copied from previous compilation.
+    1637 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  EMLauncher.vcxproj -> E:\EMFAex2\x64\Release\EMLauncher.exe

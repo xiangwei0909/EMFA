@@ -1,0 +1,2 @@
+# EMFA
+electromagnet fast algorithm
